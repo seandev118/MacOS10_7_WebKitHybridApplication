@@ -1,0 +1,97 @@
+body{
+    background-color:#000000;
+}
+
+
+
+#youtube{
+    width: 560px;
+    height: 500px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+}
+#textbox{
+    font-size: 11px;
+    padding-left: 8px;
+    padding-top: 10px;
+    font-family: helvetica;
+    
+}
+
+#video{
+    
+}
+#playlistColumn{
+    width: 200px;
+    height: 500px;
+    background-color: #999;
+    border: 1px solid #ccc;
+    position: absolute;
+    left:560px;
+    top: 0px;
+    text-align: left;
+}
+#playlist{
+    font-size: 12px;
+    font-family: arial;
+    color: #cccccc;
+    padding: 8px;
+    padding-left:8px;
+    padding-right:8px;
+    text-align:left;
+  
+}
+h1{
+    font-size: 13px;
+    font-family: helvetica;
+    color: #000000;
+}
+#ildTrailer{
+    
+    
+}
+
+
+#hangIld{
+   
+    
+}
+#hangOri{
+    
+}
+
+#fareIld{
+    
+    
+}
+#fareOri{
+    
+}
+
+#500Ild{
+    
+    
+}
+#500Ori{
+    
+}
+
+#pleaseIld{
+    
+    
+}
+#pleaseOri{
+    
+}
+
+#janeIld{
+    
+    
+}
+#janeOri{
+    
+}

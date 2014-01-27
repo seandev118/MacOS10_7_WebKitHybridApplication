@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14358F03188E243700B135F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14358F02188E243700B135F5 /* Cocoa.framework */; };
+		14358F0D188E243700B135F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14358F0B188E243700B135F5 /* InfoPlist.strings */; };
+		14358F0F188E243700B135F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14358F0E188E243700B135F5 /* main.m */; };
+		14358F13188E243700B135F5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 14358F11188E243700B135F5 /* Credits.rtf */; };
+		14358F16188E243700B135F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14358F15188E243700B135F5 /* AppDelegate.m */; };
+		14358F19188E243700B135F5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14358F17188E243700B135F5 /* MainMenu.xib */; };
+		14358F1B188E243700B135F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14358F1A188E243700B135F5 /* Images.xcassets */; };
+		14358F22188E243700B135F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14358F21188E243700B135F5 /* XCTest.framework */; };
+		14358F23188E243700B135F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14358F02188E243700B135F5 /* Cocoa.framework */; };
+		14358F2B188E243700B135F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14358F29188E243700B135F5 /* InfoPlist.strings */; };
+		14358F2D188E243700B135F5 /* CocoaWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14358F2C188E243700B135F5 /* CocoaWebTests.m */; };
+		14358F37188E275500B135F5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14358F36188E275500B135F5 /* WebKit.framework */; };
+		14358F38188E277200B135F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14358F07188E243700B135F5 /* Foundation.framework */; };
+		14358F39188E277A00B135F5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14358F05188E243700B135F5 /* AppKit.framework */; };
+		14358F3B188E2CB600B135F5 /* ildplaylist.html in Resources */ = {isa = PBXBuildFile; fileRef = 14358F3A188E2CB600B135F5 /* ildplaylist.html */; };
+		14F454BA189655F7006ECAEF /* CocoaWeb-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14F454B9189655F7006ECAEF /* CocoaWeb-Info.plist */; };
+		14F454BC1896578B006ECAEF /* llewyn.js in Sources */ = {isa = PBXBuildFile; fileRef = 14F454BB1896578B006ECAEF /* llewyn.js */; };
+		14F454C018965BD3006ECAEF /* ildplaylist.css in Resources */ = {isa = PBXBuildFile; fileRef = 14F454BF18965BD3006ECAEF /* ildplaylist.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14358F24188E243700B135F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14358EF7188E243700B135F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14358EFE188E243700B135F5;
+			remoteInfo = CocoaWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14358EFF188E243700B135F5 /* Inside Llewyn's Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inside Llewyn's Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14358F02188E243700B135F5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		14358F05188E243700B135F5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		14358F06188E243700B135F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14358F07188E243700B135F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14358F0C188E243700B135F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14358F0E188E243700B135F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14358F10188E243700B135F5 /* Inside Llewyn's Music-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Inside Llewyn's Music-Prefix.pch"; sourceTree = "<group>"; };
+		14358F12188E243700B135F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		14358F14188E243700B135F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14358F15188E243700B135F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14358F18188E243700B135F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		14358F1A188E243700B135F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14358F20188E243700B135F5 /* Inside Llewyn's MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inside Llewyn's MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14358F21188E243700B135F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14358F28188E243700B135F5 /* CocoaWebTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaWebTests-Info.plist"; sourceTree = "<group>"; };
+		14358F2A188E243700B135F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14358F2C188E243700B135F5 /* CocoaWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaWebTests.m; sourceTree = "<group>"; };
+		14358F36188E275500B135F5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		14358F3A188E2CB600B135F5 /* ildplaylist.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ildplaylist.html; sourceTree = "<group>"; };
+		14F454B9189655F7006ECAEF /* CocoaWeb-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CocoaWeb-Info.plist"; sourceTree = "<group>"; };
+		14F454BB1896578B006ECAEF /* llewyn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = llewyn.js; sourceTree = "<group>"; };
+		14F454BF18965BD3006ECAEF /* ildplaylist.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ildplaylist.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14358EFC188E243700B135F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14358F39188E277A00B135F5 /* AppKit.framework in Frameworks */,
+				14358F38188E277200B135F5 /* Foundation.framework in Frameworks */,
+				14358F37188E275500B135F5 /* WebKit.framework in Frameworks */,
+				14358F03188E243700B135F5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14358F1D188E243700B135F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14358F23188E243700B135F5 /* Cocoa.framework in Frameworks */,
+				14358F22188E243700B135F5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14358EF6188E243700B135F5 = {
+			isa = PBXGroup;
+			children = (
+				14358F08188E243700B135F5 /* CocoaWeb */,
+				14358F26188E243700B135F5 /* CocoaWebTests */,
+				14358F01188E243700B135F5 /* Frameworks */,
+				14358F00188E243700B135F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14358F00188E243700B135F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14358EFF188E243700B135F5 /* Inside Llewyn's Music.app */,
+				14358F20188E243700B135F5 /* Inside Llewyn's MusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14358F01188E243700B135F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14358F36188E275500B135F5 /* WebKit.framework */,
+				14358F02188E243700B135F5 /* Cocoa.framework */,
+				14358F21188E243700B135F5 /* XCTest.framework */,
+				14358F04188E243700B135F5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14358F04188E243700B135F5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14358F05188E243700B135F5 /* AppKit.framework */,
+				14358F06188E243700B135F5 /* CoreData.framework */,
+				14358F07188E243700B135F5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		14358F08188E243700B135F5 /* CocoaWeb */ = {
+			isa = PBXGroup;
+			children = (
+				14358F3A188E2CB600B135F5 /* ildplaylist.html */,
+				14F454BB1896578B006ECAEF /* llewyn.js */,
+				14F454BF18965BD3006ECAEF /* ildplaylist.css */,
+				14358F14188E243700B135F5 /* AppDelegate.h */,
+				14358F15188E243700B135F5 /* AppDelegate.m */,
+				14358F17188E243700B135F5 /* MainMenu.xib */,
+				14358F1A188E243700B135F5 /* Images.xcassets */,
+				14358F09188E243700B135F5 /* Supporting Files */,
+			);
+			path = CocoaWeb;
+			sourceTree = "<group>";
+		};
+		14358F09188E243700B135F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14358F0B188E243700B135F5 /* InfoPlist.strings */,
+				14358F0E188E243700B135F5 /* main.m */,
+				14F454B9189655F7006ECAEF /* CocoaWeb-Info.plist */,
+				14358F10188E243700B135F5 /* Inside Llewyn's Music-Prefix.pch */,
+				14358F11188E243700B135F5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14358F26188E243700B135F5 /* CocoaWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				14358F2C188E243700B135F5 /* CocoaWebTests.m */,
+				14358F27188E243700B135F5 /* Supporting Files */,
+			);
+			path = CocoaWebTests;
+			sourceTree = "<group>";
+		};
+		14358F27188E243700B135F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14358F28188E243700B135F5 /* CocoaWebTests-Info.plist */,
+				14358F29188E243700B135F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14358EFE188E243700B135F5 /* Inside Llewyn's Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14358F30188E243700B135F5 /* Build configuration list for PBXNativeTarget "Inside Llewyn's Music" */;
+			buildPhases = (
+				14358EFB188E243700B135F5 /* Sources */,
+				14358EFC188E243700B135F5 /* Frameworks */,
+				14358EFD188E243700B135F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inside Llewyn's Music";
+			productName = CocoaWeb;
+			productReference = 14358EFF188E243700B135F5 /* Inside Llewyn's Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14358F1F188E243700B135F5 /* Inside Llewyn's MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14358F33188E243700B135F5 /* Build configuration list for PBXNativeTarget "Inside Llewyn's MusicTests" */;
+			buildPhases = (
+				14358F1C188E243700B135F5 /* Sources */,
+				14358F1D188E243700B135F5 /* Frameworks */,
+				14358F1E188E243700B135F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14358F25188E243700B135F5 /* PBXTargetDependency */,
+			);
+			name = "Inside Llewyn's MusicTests";
+			productName = CocoaWebTests;
+			productReference = 14358F20188E243700B135F5 /* Inside Llewyn's MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14358EF7188E243700B135F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = seanliu;
+				TargetAttributes = {
+					14358F1F188E243700B135F5 = {
+						TestTargetID = 14358EFE188E243700B135F5;
+					};
+				};
+			};
+			buildConfigurationList = 14358EFA188E243700B135F5 /* Build configuration list for PBXProject "Inside Llewyn's Music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14358EF6188E243700B135F5;
+			productRefGroup = 14358F00188E243700B135F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14358EFE188E243700B135F5 /* Inside Llewyn's Music */,
+				14358F1F188E243700B135F5 /* Inside Llewyn's MusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14358EFD188E243700B135F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F454BA189655F7006ECAEF /* CocoaWeb-Info.plist in Resources */,
+				14358F3B188E2CB600B135F5 /* ildplaylist.html in Resources */,
+				14F454C018965BD3006ECAEF /* ildplaylist.css in Resources */,
+				14358F0D188E243700B135F5 /* InfoPlist.strings in Resources */,
+				14358F1B188E243700B135F5 /* Images.xcassets in Resources */,
+				14358F13188E243700B135F5 /* Credits.rtf in Resources */,
+				14358F19188E243700B135F5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14358F1E188E243700B135F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14358F2B188E243700B135F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14358EFB188E243700B135F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14358F16188E243700B135F5 /* AppDelegate.m in Sources */,
+				14F454BC1896578B006ECAEF /* llewyn.js in Sources */,
+				14358F0F188E243700B135F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14358F1C188E243700B135F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14358F2D188E243700B135F5 /* CocoaWebTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14358F25188E243700B135F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14358EFE188E243700B135F5 /* Inside Llewyn's Music */;
+			targetProxy = 14358F24188E243700B135F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14358F0B188E243700B135F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14358F0C188E243700B135F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14358F11188E243700B135F5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14358F12188E243700B135F5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		14358F17188E243700B135F5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14358F18188E243700B135F5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		14358F29188E243700B135F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14358F2A188E243700B135F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14358F2E188E243700B135F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		14358F2F188E243700B135F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		14358F31188E243700B135F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaWeb/Inside Llewyn's Music-Prefix.pch";
+				INFOPLIST_FILE = "CocoaWeb/CocoaWeb-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Inside Llewyn's Music";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14358F32188E243700B135F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaWeb/Inside Llewyn's Music-Prefix.pch";
+				INFOPLIST_FILE = "CocoaWeb/CocoaWeb-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Inside Llewyn's Music";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14358F34188E243700B135F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaWeb.app/Contents/MacOS/CocoaWeb";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaWeb/CocoaWeb-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CocoaWebTests/CocoaWebTests-Info.plist";
+				PRODUCT_NAME = "Inside Llewyn's MusicTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14358F35188E243700B135F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaWeb.app/Contents/MacOS/CocoaWeb";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaWeb/CocoaWeb-Prefix.pch";
+				INFOPLIST_FILE = "CocoaWebTests/CocoaWebTests-Info.plist";
+				PRODUCT_NAME = "Inside Llewyn's MusicTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14358EFA188E243700B135F5 /* Build configuration list for PBXProject "Inside Llewyn's Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14358F2E188E243700B135F5 /* Debug */,
+				14358F2F188E243700B135F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14358F30188E243700B135F5 /* Build configuration list for PBXNativeTarget "Inside Llewyn's Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14358F31188E243700B135F5 /* Debug */,
+				14358F32188E243700B135F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14358F33188E243700B135F5 /* Build configuration list for PBXNativeTarget "Inside Llewyn's MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14358F34188E243700B135F5 /* Debug */,
+				14358F35188E243700B135F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14358EF7188E243700B135F5 /* Project object */;
+}
